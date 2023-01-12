@@ -1,0 +1,109 @@
+body {
+  background-color: #414141;
+  font-family: Courier New, monospace;
+  color: #9E7676;
+  font-size: 20px;
+}
+img {
+ border: 1px solid black;
+ border-radius: 4px;
+ border-width: thick;
+ width: 60%;
+}
+td.img {
+  text-align: center;
+}
+a {
+  font-family: Courier New,monospace;
+  color: #9E7676;
+  text-decoration: none;
+}
+a:hover {
+  color: hotpink;
+  text-decoration: underline;
+}
+hr {
+  border-style: none;
+  border-top: 4px dotted;
+  color: #525252;
+  width: 3%;
+}
+h1 {
+  color: #CA3E47;
+  font-family: Papyrus, fantasy;
+
+}
+h1.contact {
+  color: #CA3E47;
+  font-family: Papyrus, fantasy;
+  text-align: center;
+}
+h3 {
+  color: #CF0A0A;
+  font-family: Lucida Handwriting, cursive;
+  text-align: center;
+}
+div.container {
+  text-align: center;
+}
+ul.education{
+  display: inline-block;
+  text-align: left;
+  list-style: square;
+}
+table.work {
+  display: inline-block;
+  text-align: left;
+}
+table.skills {
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+}
+th {
+  text-align: center;
+}
+td.stars{
+  color: #990000;
+}
+div.form {
+  text-align: center;
+}
+label {
+  font-weight: bolder;
+  text-indent: inherit;
+}
+input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #555;
+  background-color: #DFD3C3;
+  font-family: Courier New, monospace;
+  font-weight: bold;
+  color: #CA3E47;
+}
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #DFD3C3;
+  font-family: Courier New, monospace;
+  color: #CA3E47;
+}
+option {
+  font-weight: bold;
+}
+input.text {
+  width: 50%
+}
+input.submit {
+  padding: 16px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 16%;
+  font-size: 20px;
+    font-family: Papyrus, fantasy;
+  }
